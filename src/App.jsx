@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import profileimg from "/profileimg.png"
+import p1 from "/p1.png"
+import p2 from "/p2.png"
+import p3 from "/p3.png"
+import p4 from "/p4.png"
+import sanyu from "/sanyu.png"
+import codingsavvy from "/codingsavvvy.png"
+import celebal from "/celebal.png"
+import cisco from "/ciscocyber.png"
+import postman from "/postmanapi.png"
 
 const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
@@ -29,7 +39,7 @@ Driven by curiosity and a growth mindset, I thrive in transforming complex probl
     {/* Dashboard Project */}
    <div className="border-2 border-green-700 p-6 rounded-lg hover:scale-105 transition-transform shadow-lg shadow-green-500/30">
       <img
-        src="/p1.png"
+        src={p1}
         alt="Dashboard"
         className="w-full h-48 object-cover rounded-md"
       />
@@ -57,7 +67,7 @@ Driven by curiosity and a growth mindset, I thrive in transforming complex probl
     {/* Musico Project */}
    <div className=" shadow-lg shadow-green-500/30 border-2 border-green-700 p-6 rounded-lg hover:scale-105 transition-transform">
        <img
-        src="/p2.png"
+        src={p2}
         alt="Musico"
         className="w-full h-48 object-cover rounded-md"
       />
@@ -89,7 +99,7 @@ Driven by curiosity and a growth mindset, I thrive in transforming complex probl
     {/* ShipNTrack Project */}
     <div className=" shadow-lg shadow-green-500/30 border-2 border-green-700 p-6 rounded-lg hover:scale-105 transition-transform">
       <img
-        src="/p3.png"
+        src={p3}
         alt="ShipNTrack"
         className="w-full h-48 object-cover rounded-md"
       />
@@ -119,7 +129,7 @@ Driven by curiosity and a growth mindset, I thrive in transforming complex probl
     {/* Speech-to-Text POS Tagging */}
     <div className=" shadow-lg shadow-green-500/30 border-2 border-green-700 p-6 rounded-lg hover:scale-105 transition-transform">
       <img
-        src="/p4.png"
+        src={p4}
         alt="SpeechPosimg"
         className="w-full h-48 object-cover rounded-md"
       />
@@ -203,7 +213,7 @@ Driven by curiosity and a growth mindset, I thrive in transforming complex probl
       {/* Cisco Cybersecurity */}
       <div className="border border-green-500 rounded-xl hover:scale-105 transition-transform overflow-hidden shadow-lg shadow-green-500/30">
         <img
-          src="ciscocyber.png"
+          src={cisco}
           alt="Cisco Certificate"
           className="w-full h-48 object-cover"
         />
@@ -222,7 +232,7 @@ Driven by curiosity and a growth mindset, I thrive in transforming complex probl
       {/* Postman API */}
       <div className="border border-green-500 rounded-xl hover:scale-105 transition-transform overflow-hidden shadow-lg shadow-green-500/30">
         <img
-          src="postmanapi.png"
+          src={postman}
           alt="Postman API Certificate"
           className="w-full h-48 object-cover"
         />
@@ -252,7 +262,7 @@ internships: (
       {/* Celebal Technologies */}
       <div className="border border-green-500 rounded-xl hover:scale-105 transition-transform overflow-hidden shadow-lg shadow-green-500/30">
         <img
-          src="celebal.png"
+          src={celebal}
           alt="Celebal Technologies Certificate"
           className="w-full h-48 object-cover"
         />
@@ -273,7 +283,7 @@ internships: (
       {/* Sanyu Infotech */}
       <div className="border border-green-500 rounded-xl hover:scale-105 transition-transform overflow-hidden shadow-lg shadow-green-500/30">
         <img
-          src="sanyu.png"
+          src={sanyu}
           alt="Sanyu Infotech Certificate"
           className="w-full h-48 object-cover"
         />
@@ -292,7 +302,7 @@ internships: (
       {/* Coding Savvy */}
       <div className="border border-green-500 rounded-xl hover:scale-105 transition-transform overflow-hidden shadow-lg shadow-green-500/30">
         <img
-          src="codingsavvvy.png"
+          src={codingsavvy}
           alt="Coding Savvy Certificate"
           className="w-full h-48 object-cover"
         />
@@ -395,7 +405,7 @@ export default function App() {
           {/* Profile Image */}
           <div className="w-42 h-42 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden shadow-xl shadow-blue-300  border-4 border-white mb-4">
             <img
-              src="/profileimg.png"
+              src={profileimg}
               alt="Gautami"
               className="w-full h-full object-cover"
             />
