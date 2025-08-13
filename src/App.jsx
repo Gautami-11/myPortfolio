@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import profileimg from "/profileimg.png"
 import p1 from "/p1.png"
